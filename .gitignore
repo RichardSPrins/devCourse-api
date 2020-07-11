@@ -1,1 +1,3 @@
-/devcamper_project_resources
+devcamper_project_resources/
+config/config.env
+node_modules/
