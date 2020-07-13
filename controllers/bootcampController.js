@@ -7,7 +7,8 @@
 exports.getBootcamps = async (req, res, next) => {
   res.status(200).json({
     success: true, 
-    msg: "Show all bootcamps."
+    msg: "Show all bootcamps.",
+    data: req.hello
   })
   next()
 }
